@@ -1,0 +1,29 @@
+.chat-widget {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  bottom: 80px;
+  right: 20px;
+  border-style: solid;
+  border-color: #1976d2;
+  border-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.message-list {
+  position: relative;
+  height: 78.8%;
+  padding: 10px;
+}
+
+.input {
+  position: relative;
+  bottom: 0;
+}
+
+#chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
