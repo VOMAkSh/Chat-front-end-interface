@@ -1,8 +1,8 @@
 .chat-widget {
   position: absolute;
-  top: 30%;
+  top: 23%;
   left: 60%;
-  bottom: 80px;
+  bottom: 100px;
   right: 20px;
   border-style: solid;
   border-color: #1976d2;
@@ -13,13 +13,13 @@
 
 .message-list {
   position: relative;
-  height: 78.8%;
+  height: 80%;
   padding: 10px;
 }
 
 .input {
   position: relative;
-  bottom: 0;
+  bottom: 21px;
 }
 
 #chat-button {
