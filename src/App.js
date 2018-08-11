@@ -71,6 +71,16 @@ class App extends Component {
   render() {
     return (
       <Fragment>
+        <div className="container">
+          <iframe
+            style={{
+              width: "100%",
+              borderStyle: "none"
+            }}
+            src="data:text/html;charset=utf-8,%3Cbody%3E%3Cscript%20src%3D%22https%3A%2F%2Fgist.github.com%2FVOMAkSh%2F8483fe7e466e82d4c78877c26af43546.js%22%3E%3C%2Fscript%3E%3C%2Fbody%3E"
+          />
+        </div>
+
         {!this.state.isHidden ? (
           <div className="chat-widget blue">
             <div
